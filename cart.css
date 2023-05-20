@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    margin: 40px;
+    width: 100%;
+    height: 200vh;
+   
+}
+
+nav{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    background-color: rgb(247, 245, 244);
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px grey;
+    position: fixed;
+    top: 20px;
+    left: 300px;
+}
+#title{
+    font-size: 25px;
+    font-weight: bold;
+}
+#cartItems{
+    display: flex;
+    width: 30px;
+    justify-content: space-between;
+
+}
+#cartItems i{
+    font-size: 20px;
+}
+#cartItems span{
+    margin-top: -10px;
+}
+#listproduct{
+    margin-top: 50px;
+    width: 80%;
+    height: 100%;
+    position: fixed;
+    top: 120px;
+    left: 0;
+    display: grid;
+    grid-template-columns:repeat(6 , 240px);
+    grid-auto-rows: 350px;
+    gap: 20px;
+    
+}
+#removepop{
+    position: relative;
+    left: 290px;
+    top: -35px;
+    color: red;
+    cursor: pointer;
+}
+.modal{
+    background-color: black;
+    color: white;
+    height: 200vh;
+    width: 18%;
+    margin-left: 1595px;
+    position: relative;
+    top: 0;
+}
+#butone{
+    position: relative;
+    top: 50px;
+    left: -50px;
+}
+#shopcart{
+    cursor: pointer;
+}
+#listproduct h4{
+    position: relative;
+    left: 85px;
+}
+.add{
+    margin-left:130px ;
+    width: 60px;
+    height: 30px;
+    position: relative;
+    top: -5px;
+}
+.add i{
+    font-size: 15px;
+}
+.line{
+    position: relative;
+    top: 17px;
+}
+
+
+.productImage{
+    width: 250px;
+    height: 250px;
+}
+
+.productImage:hover{
+    transform: scale(1.05);
+
+}
+.card{
+  
+    width: 100px;
+    height: 100px;
+}
+.price{
+    position: relative;
+    top: 10px;
+    margin-left: 105px;
+}
+.total-price{
+    margin-left: 35px;
+    font-size: 25px;
+}
+.overlay{
+    display: none;
+
+}
+
+.cart-image{
+    width: 100px;
+    height: 100px;
+
+}
+.product-quantity{
+    width: 50px;
+    height: 20px;
+    position: relative;
+    top: -45px;
+    left: 8px;
+
+    
+}
+.remove-btn{
+    width: 50px;
+    height: 20px;
+    position: relative;
+    left: 10px;
+    top: -45px;
+
+   
+}
+.cart-price{
+    position: relative;
+    top: -45px;
+
+    
+}
+.total{
+   margin-left: 110px;
+    margin-top: 200px;
+
+}
+.product-row{
+
+    position: relative;
+    top: 20px;
+    left: 5px;
+
+}
+
+.buy{
+   width: 60px;
+   height: 30px;
+   position: relative;
+   top: 25px;
+   left: 65px;
+  
+}
+.h1c{
+    margin-left: 10px;
+}
